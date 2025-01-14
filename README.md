@@ -3,11 +3,6 @@
 
 This repository contains a PyTorch implementation of the paper **"AutoRec: Autoencoders Meet Collaborative Filtering"**. It is a model designed for collaborative filtering tasks in recommendation systems.
 
-## Features
-
-- **User-based and Item-based AutoRec Training**: Select between user-based or item-based approaches.
-- **Customizable Parameters**: Easily configure hidden space dimensions, dropout rates, and other training parameters.
-- **Simple Execution**: Just one command to run the model.
 
 ## Requirements
 
@@ -62,4 +57,4 @@ For example: `best_model_hsd500.pth`
 
 If you use this implementation in your research, please cite the original paper:
 
-> Suvash Sedhain, Aditya Krishna Menon, Scott Sanner, and Lexing Xie. **"AutoRec: Autoencoders Meet Collaborative Filtering."** In Proceedings of the 24th International Conference on World Wide Web (WWW), 2015.
+1. Sedhain, S., Menon, A. K., Sanner, S., & Xie, L. (2015). AutoRec: Autoencoders Meet Collaborative Filtering. In *Proceedings of the 24th International Conference on World Wide Web* (pp. 111–112). Association for Computing Machinery. DOI: [10.1145/2740908.2742726](https://doi.org/10.1145/2740908.2742726)
