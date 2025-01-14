@@ -43,16 +43,6 @@ The default dataset used is **MovieLens 1M**. Make sure the dataset is located i
 
 If you want to use another dataset, place it in the desired folder and update the `--data_folder` argument.
 
-## Output
-
-The model's performance is logged in real-time during training, showing metrics like RMSE on the training and validation datasets. The best model weights are automatically saved in a file named:
-
-```plaintext
-best_model_hsd<hidden_space_dimension>.pth
-```
-
-For example: `best_model_hsd500.pth`
-
 ## Reference
 
 If you use this implementation in your research, please cite the original paper:
